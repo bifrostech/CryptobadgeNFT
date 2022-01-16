@@ -3,13 +3,14 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC721.sol";
-import "../extensions/ERC721Enumerable.sol";
-import "../extensions/ERC721Burnable.sol";
-import "../extensions/ERC721Pausable.sol";
-import "../../../access/AccessControlEnumerable.sol";
-import "../../../utils/Context.sol";
-import "../../../utils/Counters.sol";
+
+import "./token/ERC721.sol";
+import "./extensions/ERC721Enumerable.sol";
+import "./extensions/ERC721Burnable.sol";
+import "./extensions/ERC721Pausable.sol";
+import "./access/AccessControlEnumerable.sol";
+import "./utils/Context.sol";
+import "./utils/Counters.sol";
 
 /**
  * @dev {ERC721} token, including:
